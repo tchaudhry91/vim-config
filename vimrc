@@ -1,8 +1,12 @@
 execute pathogen#infect()
 syntax on
+filetype plugin indent on
+
 set shiftwidth=2
 set softtabstop=2
 set expandtab
 set number
+
 imap jk <esc>
-filetype plugin indent on
+
+map <C-n> :NERDTreeToggle<CR>
