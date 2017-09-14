@@ -1,4 +1,5 @@
 execute pathogen#infect()
+execute pathogen#helptags()
 syntax on
 filetype plugin indent on
 
@@ -9,4 +10,10 @@ set number
 
 imap jk <esc>
 
+" Plugins Options
+
+" NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+" CtrlP
+let g:ctrlp_switch_buffer = 'et'
