@@ -5,3 +5,4 @@ git clone https://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/
 git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline || true
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim || true
 git clone https://github.com/valloric/youcompleteme ~/.vim/bundle/youcompleteme || true
+git clone https://github.com/SirVer/ultisnips.git ~/.vim/bundle/ultisnips || true

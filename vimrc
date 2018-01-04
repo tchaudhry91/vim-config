@@ -18,3 +18,6 @@ map <C-n> :NERDTreeToggle<CR>
 
 " CtrlP
 let g:ctrlp_switch_buffer = 'et'
+
+" UltiSnips
+let g:UltiSnipsExpandTrigger="<c-e>"
