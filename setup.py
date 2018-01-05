@@ -40,7 +40,6 @@ def main():
         executor = clone_if_not_exists
     else:
         executor = update
-        return
     for plugin in plugins['plugins']:
         print("Processing: " + plugin['name'] + "\n")
         to_update = executor(plugin['repo'], plugin['path'])
