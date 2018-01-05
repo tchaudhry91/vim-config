@@ -1,0 +1,31 @@
+---
+
+plugins:
+  - name: vim-go
+    repo: https://github.com/fatih/vim-go.git
+    path: ~/.vim/bundle/vim-go
+    init: ~/.vim/initializers/vim-go.sh
+  - name: nerdtree
+    repo: https://github.com/scrooloose/nerdtree.git
+    path: ~/.vim/bundle/nerdtree
+    init: 
+  - name: vim-colors-solarized
+    repo: https://github.com/altercation/vim-colors-solarized.git
+    path: ~/.vim/bundle/vim-colors-solarized
+    init:
+  - name: vim-airline
+    repo: https://github.com/bling/vim-airline
+    path: ~/.vim/bundle/vim-airline
+    init:
+  - name: ctrl-p
+    repo: https://github.com/ctrlpvim/ctrlp.vim.git
+    path: ~/.vim/bundle/ctrlp.vim
+    init:
+  - name: youcompleteme
+    repo: https://github.com/valloric/youcompleteme
+    path: ~/.vim/bundle/youcompleteme
+    init: ~/.vim/initializers/ycm.sh
+  - name: ultisnips
+    repo: https://github.com/SirVer/ultisnips.git
+    path: ~/.vim/bundle/ultisnips
+    init:
