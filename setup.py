@@ -9,6 +9,9 @@ def clone_if_not_exists(repo, path):
     if not os.path.isdir(abspath):
         output = subprocess.check_output(['git', 'clone', repo, path])
         print(output)
+        return True
+    else:
+        return False
 
 
 def update(repo, path):
@@ -18,6 +21,7 @@ def update(repo, path):
     print(output)
     output = subprocess.check_output(['git', 'pull'])
     print(output)
+    return True
 
 
 def initialize_plugin(init_script):
@@ -38,8 +42,8 @@ def main():
         executor = update
     for plugin in plugins['plugins']:
         print("Processing: " + plugin['name'] + "\n")
-        executor(plugin['repo'], plugin['path'])
-        if plugin['init']:
+        to_update = executor(plugin['repo'], plugin['path'])
+        if plugin['init'] and update:
             initialize_plugin(plugin['init'])
 
 
