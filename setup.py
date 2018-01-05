@@ -7,7 +7,7 @@ import yaml
 def clone_if_not_exists(repo, path):
     abspath = os.path.expanduser(path)
     if not os.path.isdir(abspath):
-        output = subprocess.check_output(['git', 'clone', repo, path])
+        output = subprocess.check_output(['git', 'clone', repo, abspath])
         print(output)
         return True
     else:

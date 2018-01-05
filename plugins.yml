@@ -29,3 +29,7 @@ plugins:
     repo: https://github.com/SirVer/ultisnips.git
     path: ~/.vim/bundle/ultisnips
     init:
+  - name: vim-airline-themes
+    repo: https://github.com/vim-airline/vim-airline-themes
+    path: ~/.vim/bundle/vim-airline-themes
+    init:

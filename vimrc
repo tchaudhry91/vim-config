@@ -22,5 +22,5 @@ let g:ctrlp_switch_buffer = 'et'
 " UltiSnips
 let g:UltiSnipsExpandTrigger="<c-e>"
 
-" Disable Py-Mode by default
-let g:pymode = 0
+" airline-theme
+let g:airline_theme='minimalist'
