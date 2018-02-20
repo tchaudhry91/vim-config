@@ -2,6 +2,7 @@ execute pathogen#infect()
 execute pathogen#helptags()
 syntax on
 filetype plugin indent on
+set nocompatible
 
 set shiftwidth=2
 set softtabstop=2

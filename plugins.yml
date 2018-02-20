@@ -37,3 +37,7 @@ plugins:
     repo: https://github.com/AndrewRadev/splitjoin.vim.git 
     path: ~/.vim/bundle/splitjoin
     init: 
+  - name: salt-vim
+    repo: https://github.com/saltstack/salt-vim.git
+    path: ~/.vim/bundle/salt-vim
+    init:
