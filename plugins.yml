@@ -33,3 +33,7 @@ plugins:
     repo: https://github.com/vim-airline/vim-airline-themes
     path: ~/.vim/bundle/vim-airline-themes
     init:
+  - name: split-join
+    repo: https://github.com/AndrewRadev/splitjoin.vim.git 
+    path: ~/.vim/bundle/splitjoin
+    init: 
