@@ -1,7 +1,24 @@
-execute pathogen#infect()
-execute pathogen#helptags()
 syntax on
 filetype plugin indent on
+
+call plug#begin('~/.vim/plugged')
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'SirVer/ultisnips'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'fatih/vim-go', { 'tag': 'master' }
+Plug 'nsf/gocode'
+Plug 'saltstack/salt-vim'
+Plug 'AndrewRadev/splitjoin.vim'
+Plug 'altercation/vim-colors-solarized'
+Plug 'bling/vim-airline'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'zchee/deoplete-go', { 'do': 'make'}
+call plug#end()
+
 set nocompatible
 
 set shiftwidth=2
