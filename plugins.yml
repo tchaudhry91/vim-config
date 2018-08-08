@@ -21,10 +21,6 @@ plugins:
     repo: https://github.com/ctrlpvim/ctrlp.vim.git
     path: ~/.vim/bundle/ctrlp.vim
     init:
-  - name: youcompleteme
-    repo: https://github.com/valloric/youcompleteme
-    path: ~/.vim/bundle/youcompleteme
-    init: ~/.vim/initializers/ycm.sh
   - name: ultisnips
     repo: https://github.com/SirVer/ultisnips.git
     path: ~/.vim/bundle/ultisnips
@@ -41,3 +37,19 @@ plugins:
     repo: https://github.com/saltstack/salt-vim.git
     path: ~/.vim/bundle/salt-vim
     init:
+  - name: deoplete.nvim
+    repo: https://github.com/shougo/deoplete.nvim.git
+    path: ~/.vim/bundle/deoplete.nvim
+    init:
+  - name: nvim-yarp
+    repo: https://github.com/roxma/nvim-yarp.git
+    path: ~/.vim/bundle/nvim-yarp
+    init:
+  - name: vim-hug-neovim-rpc
+    repo: https://github.com/roxma/vim-hug-neovim-rpc.git
+    path: ~/.vim/bundle/vim-hug-neovim-rpc
+    init:
+  - name: deoplete-go
+    repo: https://github.com/zchee/deoplete-go.git
+    path: ~/.vim/bundle/deoplete-go
+    init: ~/.vim/initializers/deoplete-go.sh
