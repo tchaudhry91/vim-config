@@ -17,6 +17,7 @@ Plug 'Shougo/deoplete.nvim'
 Plug 'roxma/nvim-yarp'
 Plug 'roxma/vim-hug-neovim-rpc'
 Plug 'zchee/deoplete-go', { 'do': 'make'}
+Plug 'zchee/deoplete-jedi'
 call plug#end()
 
 set nocompatible
